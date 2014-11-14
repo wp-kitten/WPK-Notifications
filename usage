@@ -1,0 +1,8 @@
+// WPK Notifications
+
+// Usage:
+------------------------------------------------------
+
+do_action('wpk_notice_error', 'Your message here');
+
+do_action('wpk_notice_success', 'Your message here');

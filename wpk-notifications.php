@@ -50,4 +50,4 @@ class WpkNotifications
     <?php
     }
 }
-add_action('init', WpkNotifications::GetInstance()->RegisterHooks());
+add_action('admin_init', array(WpkNotifications::GetInstance(), 'RegisterHooks'));
